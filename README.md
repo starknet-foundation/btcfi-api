@@ -98,7 +98,7 @@ curl "https://api.example.com/v1/lending/all?protocol=Opus&from=2025-09-01&to=20
 curl "https://api.example.com/v1/borrowing/all?format=json&page=2&per_page=500"
 ```
 
-Replace `https://api.example.com` with the deployed host; `localhost:3000` works for local testing.
+Replace `https://api.example.com` with the deployed host. Production is live at `https://btcfi-api.onrender.com`; `http://localhost:3000` works for local testing.
 
 ## Content Negotiation
 - Setting `format=ndjson` or header `Accept: application/x-ndjson` streams NDJSON.
